@@ -44,7 +44,7 @@ body {
     background-color: white;
 }
 
-.login-box {
+/*.login-box {
     background: white;
     padding: 100px;
     padding-top: 60px;
@@ -55,7 +55,8 @@ body {
     border-radius: 1px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-}
+    align-content: center;
+}*/
 
 form {
     display: flex;
@@ -86,4 +87,38 @@ input {
         height: 28PX;
         width: 40PX;
         cursor: pointer;
+        margin-left: 77px;
+}
+.login-box2{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 66px;
+    margin-top: 10px;
+    
+    border: 2px solid rgb(236, 231, 231);
+}
+.kk{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer {
+    background-color: #266081; /* Dark background */
+    color: white; /* White text */
+    text-align: center; /* Centered text */
+    padding: 10px;
+    position:sticky; /* Fixed at the bottom */
+    bottom: 0;
+    width: 70%;
+}
+footer {
+    background-color: #266081; /* Dark background */
+    color: white; /* White text */
+    text-align: center; /* Centered text */
+    padding: 10px;
+    position:sticky; /* Fixed at the bottom */
+    bottom: 0;
+    width: 70%;
 }
